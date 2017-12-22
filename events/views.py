@@ -1,4 +1,4 @@
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the events index.")
+    return HttpResponse("Welcome to Wazzup !!!")

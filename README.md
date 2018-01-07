@@ -1,6 +1,11 @@
 # wazzup
 Know about the events happening around you.
 
+To run this project, first activate the virutal environment using command,
+
+`pipenv shell`
+`python manage.py runserver`
+
 ## Functionalities
 
 TBD

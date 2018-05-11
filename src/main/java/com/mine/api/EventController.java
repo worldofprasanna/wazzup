@@ -17,7 +17,7 @@ public class EventController {
     @GetMapping("/events")
     List<Event> getListOfEvents() {
         LocalDate workshopDate = LocalDate.of(2017, 11, 10);
-        Event event = new Event("AWS - Workshop",
+        Event event = new Event(1, "AWS - Workshop",
                 "Prasanna",
                 LocalDateTime.of(workshopDate, LocalTime.of(10, 0, 0)),
                 LocalDateTime.of(workshopDate, LocalTime.of(16, 0, 0)));
